@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tickets</title>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#">Tickets</a></li>
+			</ul>
+		</nav>
+		<header>
+			<div class="wrap">
+				<img src="images/technology-advancement.jpg">
+				<h1>ADVANCING TECHNOLOGY</h1>
+				<h4>1st Annual Budding Developers Conference</h4>
+				<p>Orlando FL, October 11, 2019</p>
+			</div>
+		</header>
+		<section id="tickets">
+			<div class="wrap">
+				<h1>Get Your Tickets!</h1>
+				<form method="post" action="">
+					<h4>Your Info</h4>
+					<input class="inp" placeholder=" NAME" type="text" name="name" id="name" required/>
+					<br>
+					<br>
+					<input class="inp" placeholder=" EMAIL" type="email" name="email" id="email" required/>
+					<h4>Package</h4>
+					<select name="package" id="package-options">
+						<option value="standard">Standard - $149</option>
+						<option value="premium">Premium - $249</option>
+					</select>
+					<br><br>
+					<label>
+						<input type="checkbox"  name="lodging" value="lodging"/> Add on lodging - $99
+					</label>
+					</br>
+					<label>
+						<input type="checkbox" name="meals" value="meals"/> Add on meals - $199
+					</label>
+					</br></br>
+					<input class="btn" type="submit" value="Submit"/>
+				</form>
+			</div>
+		</section>
+		<footer class="bground2"><p>&copy; 2019</p></footer>
+	</body>
+</html>
